@@ -10,7 +10,7 @@ console.log('a:', a);
 
 // document.getElementById('app').innerHTML ='test';
 
-document.getElementById('app').innerHTML = a();
+document.getElementById('func-a-result').innerHTML = a();
 // document.getElementById('app2').innerHTML = b();
 // console.log('rs:', rs);
 // rs();
