@@ -1,8 +1,8 @@
-# rollup_simple_used
+# webpack_simple_2
 
-this repo imports the module 'rollup_simple' for testing tree-shaking.
+this repo imports the module 'rollup_simple_2' for testing tree-shaking.
 
-https://github.com/ajrothwell/rollup_simple
+https://github.com/ajrothwell/rollup_simple_2
 
 That module uses experimentalCodeSplitting and experimentalDynamicImport, and creates a separate chunk for the code in bar.js.
 
