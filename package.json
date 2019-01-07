@@ -1,0 +1,26 @@
+{
+  "name": "rollup_simple_used",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production npx webpack --display-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "dependencies": {
+    "rollup_simple": "https://github.com/ajrothwell/rollup_simple#3d479493eda28d0c05e14f0178084b3b7878faf1",
+    "webpack-visualizer-plugin": "^0.1.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-dynamic-import-node-babel-7": "^2.0.7",
+    "cross-env": "^5.2.0",
+    "file-loader": "^3.0.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

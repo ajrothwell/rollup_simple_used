@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{3:function(n,o,s){"use strict";s.r(o),console.log("bar.js is running");o.default="bar"}}]);
