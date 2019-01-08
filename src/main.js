@@ -2,7 +2,7 @@
 // console.log('test:', test);
 
 
-import { a } from 'rollup_simple';
+import { a } from 'rollup_simple_2';
 console.log('a:', a);
 
 // import { b } from 'rollup_simple';
